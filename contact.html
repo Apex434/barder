@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="feature.html">FEATURES</a>
+                </li>
+                <li>
+                    <a href="service.html">SERVICES</a>
+                </li>
+                <li>
+                    <a href="testimonial.html">TESTIMONIALS</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="./icons8-squared-menu-50.png" id="menu">
+    </div>
+
+    <!--footer-->
+
+<section id="footer">
+    <img src="./tisat5.png" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT US</p>
+        <h1>VISIT SHOP TODAY.</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p> <i class="fa fa-clock"></i>24/7:We are always open.</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>#10 Apex street,califonia USA <i class="fa fa-map-marker"></i></p>
+            <p>petitprosper6@gmail.com <i class="fa fa-paper-plane"></i></p>
+            <p> +234 7038016434 <i class="fa fa-phone"></i></p>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="http://www.facebook.com/profile.php?id=100089054228592"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/bianca._jesse/"><i class="fa-brands fa-instagram"></i></a>
+       <a href="https://twitter.com/PetitProsper"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+2349030479209"><i class="fa-brands fa-whatsapp"></i></a>
+        <p>
+            Apex shoppings, easy to shop.
+        </p>
+    </div>
+</section>
+<script>
+    var menubtn = document.getElementById("menubtn")
+    var sidenav = document.getElementById("sidenav")
+    var menu = document.getElementById("menu")
+
+    sidenav.style.right = "-250px"
+
+    menubtn.onclick = function(){
+        if(sidenav.style.right == "-250px"){
+            sidenav.style.right = "0";
+            menu.src = "times.png";
+        }
+        else{
+            sidenav.style.right = "-250px";
+            menu.src = "icons8-squared-menu-50.png";
+        }
+    }
+</script>
+<script src="/fontawesome-free-6.2.0-web/js/"></script>
+</body>
+</html>
