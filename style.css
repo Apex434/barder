@@ -225,6 +225,9 @@ nav ul li a{
     height: 250px;
     border-radius: 7px;
 }
+.single-service a{
+    text-decoration: none;
+}
 .border{
     background-color: white;
     color: black;
@@ -300,6 +303,12 @@ h1.p{
 }
 h1.t{
     font-size: 30px;
+}
+.single-service img{
+    width: 450%;
+}
+.service-box{
+    width: 70%;
 }
 }
 
